@@ -1,0 +1,36 @@
+---
+
+### clickhouse
+- name: Install Clickhouse
+  hosts: clickhouse
+  become: true
+  roles:
+    - clickhouse
+  tags:
+    - clickhouse
+  
+  
+  ## vector
+
+- name: Install Vector
+  hosts: vector
+  become: true
+  roles:
+    - vector-role
+  tags:
+    - vector
+ 
+  
+
+
+### lighthouse
+
+- name: Install lighthouse
+  hosts: lighthouse
+  become: true
+  roles:
+    - lighthouse-role
+ 
+
+  
+# 08-ansible-05-testing
