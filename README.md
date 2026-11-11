@@ -52,19 +52,7 @@
    ![verify](screenshots/6.png)
 
 
-
-
-
- 
-
-  
-
-
-
-
-
-
-
+7. Добавлен тэг на коммит. [vector-role](https://github.com/igorsprint-code/Vector-role.git)
 
 
 ### Tox
