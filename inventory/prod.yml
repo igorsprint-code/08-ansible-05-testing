@@ -9,8 +9,8 @@ clickhouse:
 vector:
   hosts:
     vector-01:
-      ansible_host: 84.201.156.89
-      ansible_user: ubuntu
+      ansible_host: 51.250.0.6
+      ansible_user: igor
 
 
 lighthouse:

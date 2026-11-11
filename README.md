@@ -36,6 +36,37 @@
 
 ![scen_def](screenshots/3.png)
 
+4. Роль ```vector-role``` работает только с deb-пакетами, поэтому для тестирования будет добавлен дистрибутив debian в [molecule.yml](roles/vector-role/molecule/default/molecule.yml) 
+
+5. Добавлен assert в [verify.yml](roles/vector-role/molecule/default/verify.yml)
+
+6. Запускаем тест:
+
+ --- окружение создано: 
+
+ ![create](screenshots/4.png)
+
+ --- роль применена к окружению:
+
+  ![converge](screenshots/5.png)
+
+
+  --- проверки выполнены:
+
+   ![verify](screenshots/6.png)
+
+
+
+
+
+ 
+
+  
+
+
+
+
+
 
 
 
