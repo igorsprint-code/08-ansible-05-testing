@@ -28,10 +28,6 @@
 
 ![test](screenshots/1.png)
 
-2. Создаем сценарий тестирования по умолчанию:
-
-![scen](screenshots/2.png)
-
 3. Создаем сценарий по умолчанию ```molecule init scenario```:
 
 ![scen_def](screenshots/3.png)
